@@ -41,3 +41,6 @@ g. All players in the RNG should receive incentive payments that ensures they ar
 h. In Step 5, the casino should be able to reveal the value of 𝑟 and prove to everyone that the revealed value is the same 𝑟 that was generated in Step 1. Any cheating by the casino should also be detectable. Such cheating should be provable to the contract so that it can penalize the casino.
 
 i. The deposit put by the casino should be large enough to ensure the bettors can be compensated twice the money they lost in case the casino cheats.
+
+# Graded by: Professor Amir Goharshady
+Comments: Compiled with no warnings. Nice! -3: Your protocol treats the players (authority vs non-authority) differently by asking the authorities to move after other players. This is not allowed, as it significantly simplifies the problem. This is exactly your point C. :-) Can you think of a combination of your protocol with secret sharing that does not need to treat the players differently based on whether they are controlled by the authorities or not? bet() is vulnerable to frontrunning by the casino -- no points deducted This was one of the best solutions to this final project. Nice job! 
