@@ -1,4 +1,4 @@
-# Blockchain_Based_Casino
+# Blockchain Based Casino
 # Background
 You plan to set up a blockchain-based casino in the fictional country of Schweizerland. This casino supports only one type of bet: the bettor puts down a deposit of 1 Schweizerlandish schilling, which is conveniently equal to 0.01 ETH. With probability 0.5, the bet is won and you have to pay them 2 schillings. Similarly, with probability 0.5, the bet is lost and you get to keep their schilling.
 
