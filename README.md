@@ -43,4 +43,4 @@ h. In Step 5, the casino should be able to reveal the value of 𝑟 and prove to
 i. The deposit put by the casino should be large enough to ensure the bettors can be compensated twice the money they lost in case the casino cheats.
 
 # Graded by: Professor Amir Goharshady
-Comments: Compiled with no warnings. Nice! This was one of the best solutions to this final project. Nice job! 
+Comments: Compiled with no warnings. This was one of the best solutions to this final project. Nice job! 
