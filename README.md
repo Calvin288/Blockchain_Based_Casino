@@ -24,11 +24,13 @@ a. The RNG process at Step 1 above should be open to everyone for participation 
 b. The result 𝑟 of the RNG process at Step 1 above should only be visible to you (the casino). Ideally, it should be encrypted using your public key, so that no one else can decrypt it.
 Hint: Look into non-RSA encryption schemes and a concept called “homomorphic encryption”.
 
-c. The RNG at Step 1 should be tamper-proof. Specifically:
-  • The casino should not be able to tamper with the result even if it colludes with all the players who are not controlled by the authorities.
-  • The authorities should not be able to tamper with the result even if they collude with all the players who are not controlled by the casino. You can assume that at least one RNG player is
-    controlled by the casino.
-  • No one else should be able to tamper with the result, including blockchain miners.
+c. The RNG at Step 1 should be tamper-proof. 
+
+Specifically:
+
+- The casino should not be able to tamper with the result even if it colludes with all the players who are not controlled by the authorities.
+- The authorities should not be able to tamper with the result even if they collude with all the players who are not controlled by the casino. You can assume that at least one RNG player is controlled by the casino.
+- No one else should be able to tamper with the result, including blockchain miners.
 
 d. The RNG at Step 1 should be unpredictable. No one, including the casino and the authorities, should be able to guess 𝑟 or obtain any information about it before it is delivered in an encrypted format to the casino. Similarly, at any time strictly before the casino’s announcement at Step 5, no one other than the casino should be able to find any information about 𝑟. This must hold even if the authorities collude with all non-casino players to predict 𝑟. We assume the casino would not leak 𝑟 before Step 5 since it would cause them to lose all the bets.
 
